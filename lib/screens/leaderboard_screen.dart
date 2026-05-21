@@ -125,7 +125,7 @@ class LeaderboardScreen extends StatelessWidget {
                   _buildLeaderboardRow(2, 'Ayşe Demir', '%88.2', Colors.grey.shade400, false),
                   _buildLeaderboardRow(3, 'Mehmet Kaya', '%81.0', Colors.orange.shade400, false),
                   // 4. Sıraya kullanıcının kendisini dinamik verileriyle yerleştiriyoruz!
-                  _buildLeaderboardRow(4, 'Siz (Muhammed)', '%${percentage.toStringAsFixed(1)}', Colors.indigo.shade400, true),
+                  _buildLeaderboardRow(4, 'Siz ', '%${percentage.toStringAsFixed(1)}', Colors.indigo.shade400, true),
                   _buildLeaderboardRow(5, 'Can Özkan', '%34.1', Colors.transparent, false),
                 ],
               ),
